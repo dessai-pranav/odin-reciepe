@@ -1,0 +1,37 @@
+.recipe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+    position: relative;
+
+}
+.recipe img{
+    border-radius: 100%;
+    margin-left: 20px;
+    z-index: 2;
+
+}
+.recipe a{
+z-index: 2;
+font-weight: 600;
+    object-fit: contain;
+
+}
+.recipe__ingredients{
+    flex:1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+
+
+}
+.recipe__ingredients .ingredients__list--item{
+    padding:16px;
+    display: flex;
+    font-family: cursive;
+    z-index: 2;
+
+}
+z
